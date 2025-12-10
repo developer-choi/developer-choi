@@ -1,7 +1,5 @@
 # [포트폴리오 (Best Practice) 바로가기](https://github.com/developer-choi/best-practice)
 
-> 지난 3년간 실무에서 겪었던 시행착오와 해결 과정을 담았습니다.
-
 ---
 
 ### 가치관
