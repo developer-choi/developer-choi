@@ -4,7 +4,7 @@
 
 ### 가치관
 
-- **[선호하는 기술적 의사결정 방식](./docs/communication/technical-decision.md)**
+- **[기술적인 토론](./docs/communication/technical-decision.md)**
 
 ---
 
