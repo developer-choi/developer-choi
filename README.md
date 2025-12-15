@@ -2,9 +2,10 @@
 
 ---
 
-### 가치관
-
-- **[기술적인 토론](./docs/communication/technical-decision.md)**
+### 저의 일하는 방식
+- **[기술적 토론의 자세](./docs/communication/technical-decision.md)**
+- [코드 리뷰 피드백](./docs/communication/pr-review-style.md)
+- [일정과 완성도의 균형](./docs/communication/productivity-strategy.md)
 
 ---
 
