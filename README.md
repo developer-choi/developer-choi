@@ -13,11 +13,8 @@
 
 학습했던 과정이 담긴 주요 저장소 입니다.
 
-- **[React Playground](https://github.com/developer-choi/react-playground)**
-  기술적 고민을 실험하고, 과정을 기록하는 공간
-
-- **[Monorepo](https://github.com/developer-choi/forworkchoe)**
-  개인 프로젝트 간에 중복되는 코드를 분리한 모노레포
-
 - **[DSA Playground](https://github.com/developer-choi/dsa-playground)**
-  알고리즘 & 자료구조를 학습하며 사고 과정을 기록하는 공간
+  알고리즘 & 자료구조를 학습하며 사고 과정을 기록했습니다.
+
+- **[AI Contextx](https://github.com/developer-choi/dsa-playground)**
+  AI 에이전트에게 전달할 Context를 모아둔 저장소입니다.
