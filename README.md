@@ -16,5 +16,5 @@
 - **[DSA Playground](https://github.com/developer-choi/dsa-playground)**
   알고리즘 & 자료구조를 학습하며 사고 과정을 기록했습니다.
 
-- **[AI Contextx](https://github.com/developer-choi/dsa-playground)**
+- **[AI Contextx](https://github.com/developer-choi/ai-contexts)**
   AI 에이전트에게 전달할 Context를 모아둔 저장소입니다.
