@@ -67,6 +67,10 @@
 
 👉 **[Best Practice 프로젝트 링크](https://github.com/developer-choi/best-practice)**
 
+AI를 활용하여 검증된 라이브러리의 원본 소스 코드를 쉽게 분석하고 있습니다.
+
+👉 **[Simplified Material UI 프로젝트 링크](https://github.com/developer-choi/simplified-material-ui)**
+
 ## 개선 예시
 목록 페이지 개발 시, 상황에 따라 **사전 협의 하에** 아래 항목들을 스스로 처리하기도 했습니다.
 
