@@ -3,8 +3,9 @@
 ---
 
 ### 저의 일하는 방식
-- [기술적 토론의 자세](./docs/communication/technical-decision.md)
 - [일정과 완성도의 균형](./docs/communication/productivity-strategy.md)
+- [기술적 토론의 자세](./docs/communication/technical-decision.md)
+- [제품 본질에 대한 질문](./docs/communication/fundamental-questions.md)
 
 ---
 
