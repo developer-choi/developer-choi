@@ -54,11 +54,13 @@
 ### 2. AI 도구를 활용한 시간과 퀄리티 동시 확보
 일정이 **"더"** 중요하지만, 완성도 또한 포기하고 싶지 않은 욕심이 있었습니다.
 
-그래서, AI와 함께 '문제 정의'부터 시작하여
+그래서 제가 일하는 방식을 AI에게 그대로 **위임**하여 체계화했습니다.
 
-최적의 해결 방안과 작업 계획을 먼저 수립한 뒤에야 비로소 구현을 맡기는 방식으로 작업을 진행하고있습니다.
+**문제 정의** > **PR 작성**까지 총 **6단계**의 프로세스를 AI가 철저히 따르게 하여,
 
-👉 **[AI 협업 워크플로우](https://github.com/developer-choi/ai-contexts/blob/master/docs/workflow/README.md)**
+제 기준에 부합하는 결과물을 빠르게 산출하도록 만들었습니다.
+
+👉 **[AI 워크플로우](https://github.com/developer-choi/ai-contexts/blob/master/instructions/workflow/README.md)**
 
 ### 3. Best Practice
 > **실력**이 높으면 속도와 퀄리티를 모두 챙길 수 있다고 믿습니다.
