@@ -13,7 +13,7 @@
 
 학습했던 과정이 담긴 주요 저장소 입니다.
 
-- **[AI Contextx](https://github.com/developer-choi/ai-contexts)**
+- **[AI Contexts](https://github.com/developer-choi/ai-contexts)**
   AI 에이전트에게 전달할 Context를 모아둔 저장소입니다.
 
 - **[DSA Playground](https://github.com/developer-choi/dsa-playground)**
