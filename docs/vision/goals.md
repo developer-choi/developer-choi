@@ -21,13 +21,6 @@
 
 ---
 
-## 3순위. 생산성 향상
-프로젝트마다 반복되는 코드 중복 문제를 해결하기 위해 모노레포를 공부할 계획입니다.
-
-문제 정의부터 성과 측정까지 [토스 기업의 문화](https://github.com/developer-choi/ai-contexts/blob/master/instructions/self-help/roadmap.md)를 참고하여 고도화할 예정입니다.
-
----
-
 ## 1순위. 사용자 가치 창출
 
 ### 가치가 1순위인 이유
