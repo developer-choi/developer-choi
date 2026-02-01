@@ -190,6 +190,6 @@ function Page() {
 
 ## 다음 단계
 
-- [Step 4. Client Side 렌더링 에러 처리](step4.md)
-- [Step 5. Server Side 렌더링 에러 처리](step5.md)
-- [Step 6. 이벤트 핸들러 시점 에러 처리](step6.md)
+원칙을 세웠으니, 가장 먼저 사용자 눈에 띄는 화면부터 처리했습니다.
+
+[Step 4. Client Side 렌더링 에러 처리](step4.md)

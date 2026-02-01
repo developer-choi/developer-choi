@@ -78,3 +78,11 @@ function ProductFallback({error}: FallbackProps) {
 그래서 저런 코드를 Fallback마다 작성해야 하는 중복 코드 문제가 발생합니다.
 
 이것은 [Step 7. 전역/공통/개별 에러 처리](step7.md)에서 다룹니다.
+
+---
+
+## 다음 단계
+
+화면 렌더링 에러는 잡았지만, 서버에서 페이지를 그릴 때 발생하는 에러는 어떻게 할까요?
+
+[Step 5. Server Side 렌더링 에러 처리](step5.md)
