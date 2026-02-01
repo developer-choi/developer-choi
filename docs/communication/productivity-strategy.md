@@ -1,6 +1,6 @@
-# 일정 단축 피드백
+# 일정과 완성도의 균형
 
-> "완성도 높은 결과물도 중요하지만, 일정 단축이 필요하다"는 피드백을 받은 적이 있습니다.
+"완성도 높은 결과물도 중요하지만, 일정 단축이 필요하다"는 피드백을 받은 적이 있습니다.
 
 ## 배경
 저는 초기 결함을 최소화하는 것을 중요하게 여겨, 배포 후 장애를 줄여 CS 및 QA 팀의 리소스를 절약하는 것이 전체적인 효율성이라 판단했으나,
@@ -60,18 +60,18 @@
 
 제 기준에 부합하는 결과물을 빠르게 산출하도록 만들었습니다.
 
-👉 **[AI 워크플로우](https://github.com/developer-choi/ai-contexts/blob/master/instructions/workflow/README.md)**
+→ [AI 워크플로우](https://github.com/developer-choi/ai-contexts/blob/master/instructions/workflow/README.md)
 
 ### 3. Best Practice
 > **실력**이 높으면 속도와 퀄리티를 모두 챙길 수 있다고 믿습니다.
 
 그래서 Best Practice를 꾸준히 쌓아나가고 있습니다.
 
-👉 **[Best Practice 프로젝트 링크](https://github.com/developer-choi/best-practice)**
+→ [Best Practice 프로젝트](https://github.com/developer-choi/best-practice)
 
 AI를 활용하여 검증된 라이브러리의 원본 소스 코드를 쉽게 분석하고 있습니다.
 
-👉 **[Simplified Material UI 프로젝트 링크](https://github.com/developer-choi/simplified-material-ui)**
+→ [Simplified Material UI 프로젝트](https://github.com/developer-choi/simplified-material-ui)
 
 ## 개선 예시
 목록 페이지 개발 시, 상황에 따라 **사전 협의 하에** 아래 항목들을 스스로 처리하기도 했습니다.

@@ -20,7 +20,7 @@
 
 ---
 
-# 학습 및 성장
+## 성장 기록
 
-- [성장 목표와 로드맵](./docs/vision/goals.md)
+- [목표와 로드맵](./docs/vision/goals.md)
 - [AI 프롬프트](https://github.com/developer-choi/ai-contexts)
