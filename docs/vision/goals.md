@@ -53,7 +53,5 @@
 ### 2-2. 오류 없는 프로그램
 *   **목표:** 애초부터 오류 없는 프로그램을 만들고, 오류가 발생하면 빠르게 대응하기
 *   **방법과 현황:**
-  1. 처음부터 잘 만들기 위해 저만의 워크플로우를 정립했으며, 현재는 이를 AI에게 위임하여 완성도를 높이고 있습니다. [(링크)](https://github.com/developer-choi/ai-contexts/blob/master/instructions/workflow/README.md)
-  2. 테스트 코드를 작성하여 안정성을 보완합니다. **무엇을 테스트할 것인지**에 대한 기준을 정리했습니다. [(링크)](https://github.com/developer-choi/best-practice/pull/4)
-  3. PR 리뷰 및 AI 코드 리뷰를 통해 위 절차들을 다중으로 보완할 수 있지만, 아직 이 단계는 구체적으로 정리되지 않은 상태입니다.
-  4. 배포 후 에러가 발생했을 때 **빠르게 탐지하고 해결**하기 위해 Sentry를 도입하였고, 이슈를 98% 해결했습니다. [(링크)](https://github.com/developer-choi/best-practice/pull/3)
+  1. 에러 처리 원칙을 세우고, 발생 시점별로 일관된 에러 처리 전략을 수립했습니다. [(링크)](../error-handling/step1.md)
+  2. 배포 후 에러가 발생했을 때 **빠르게 탐지하고 해결**하기 위해 Sentry를 도입하였고, 이슈를 98% 해결했습니다. [(링크)](https://github.com/developer-choi/best-practice/pull/3)
