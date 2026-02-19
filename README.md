@@ -2,7 +2,7 @@
 
 ### 성능 개선
 - 📌 [App Router Streaming 도입을 통한 **TTFB 39%** 개선](https://github.com/developer-choi/best-practice/pull/2)
-- [최고의 검색결과 목록이란 무엇인가 - **useDeferredValue()**](https://github.com/developer-choi/monorepo-playground/pull/3)
+- [최고의 검색결과 목록이란 무엇인가 - **useDeferredValue()**](https://github.com/developer-choi/monorepo-playground/blob/master/apps/examples/src/rendering/search-result/README.md)
 
 ### 에러 처리
 - 📌 [Sentry 구축 및 **이슈 98% 해결**](https://github.com/developer-choi/best-practice/pull/3)
