@@ -64,6 +64,60 @@ function Page() {
 
 ---
 
+## 관련 팁: 버튼 로딩 상태 처리
+
+이벤트 핸들러에서 API를 호출할 때, 에러 처리와 함께 고려해야 할 것이 **버튼의 로딩 상태**입니다.
+
+API 호출 중에 버튼이 활성 상태로 남아 있으면, 사용자가 중복 클릭할 수 있습니다. 그래서 `useMutation`의 `isPending`을 버튼의 loading props에 전달합니다.
+
+```typescript jsx
+function Page() {
+  const { mutateAsync, isPending } = useMutation(/* ... */);
+
+  const onClick = async () => {
+    try {
+      await mutateAsync(formData);
+    } catch (error) {
+      // 에러 처리
+    }
+  };
+
+  return (
+    <Button loading={isPending} onClick={onClick}>상품 등록</Button>
+  );
+}
+```
+
+그런데, API 성공 후 **페이지 이동**이나 **모달 닫힘**이 이어지는 경우에는 `isPending`만으로 부족합니다.
+
+`isPending`은 API 응답을 받는 순간 `false`로 바뀌지만, 페이지 이동이나 모달이 닫히기까지는 짧은 시간이 걸립니다. 그 사이에 로딩이 풀리면서 버튼이 다시 활성화되는 현상이 발생합니다.
+
+이를 해결하기 위해, 컴포넌트가 언마운트될 때까지 로딩을 유지하도록 `isSuccess`를 함께 전달합니다.
+
+```typescript jsx
+function Modal() {
+  const { mutateAsync, isPending, isSuccess } = useMutation(/* ... */);
+
+  const onConfirm = async () => {
+    try {
+      await mutateAsync(formData);
+      closeModal();
+    } catch (error) {
+      // 에러 처리
+    }
+  };
+
+  return (
+    <Button loading={isPending || isSuccess} onClick={onConfirm}>확인</Button>
+  );
+}
+```
+
+- `isPending`: API 호출 중 → 로딩
+- `isSuccess`: API 성공 후 ~ 컴포넌트 언마운트 전 → 로딩 유지
+
+---
+
 ## 다음 단계
 
 모든 곳에서 에러를 잡았지만, 코드가 중복되고 있습니다. 이걸 어떻게 깔끔하게 정리할까요?
