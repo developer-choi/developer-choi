@@ -213,7 +213,48 @@ queryClient.invalidateQueries({
 
 ---
 
-## Step 7. Virtual Scrolling으로 성능 개선
+## Step 7. 무한 스크롤 하다가 오류 발생하는 경우
+
+### 문제
+1~3페이지는 정상적으로 보였지만 4페이지부터 에러가 나는 경우.
+
+`fetchNextPage` 실패 후에도 `hasNextPage: true`, `isFetchingNextPage: false`로 복귀하기 때문에, IntersectionObserver가 sentinel을 감지할 때마다 즉시 재호출한다. API 호출 → 실패 → 재호출 → 실패가 수십~수백 회 반복되는 무한루프가 발생한다.
+
+### 원인 분석
+```
+fetchNextPage() 호출
+→ 400 Bad Request
+→ isFetchingNextPage: false (복귀)
+→ hasNextPage: true (다음 페이지를 못 받았으니 여전히 true)
+→ enabled = hasNextPage && !isFetchingNextPage = true
+→ useEffect 재실행 → observer 재생성
+→ sentinel이 뷰포트 안에 있음 → isIntersecting: true
+→ fetchNextPage() 재호출
+→ (무한 반복)
+```
+
+### 해결
+`useInfiniteScroll` 훅의 enabled 조건에 `isError`를 추가한다.
+
+```typescript
+interface UseInfiniteScrollParams {
+  fetchNextPage: () => void;
+  hasNextPage: boolean;
+  isFetchingNextPage: boolean;
+  isError: boolean;       // 추가
+  offset?: number;
+}
+
+const enabled = hasNextPage && !isFetchingNextPage && !isError;
+```
+
+에러 발생 시 `isError: true` → `enabled: false` → observer를 생성하지 않으므로 무한루프가 차단된다.
+
+이 떄 사용자에게 문제가 발생했음을 알려야 왜 스크롤 내리는데 더 안불러오지? 라는 피드백을 전달 가능
+
+---
+
+## Step 8. Virtual Scrolling으로 성능 개선
 
 ### 다룰 내용
 
