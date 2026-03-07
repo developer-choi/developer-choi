@@ -60,7 +60,7 @@
 
 제 기준에 부합하는 결과물을 빠르게 산출하도록 만들었습니다.
 
-→ [AI 워크플로우](https://github.com/developer-choi/ai-contexts/blob/master/instructions/workflow/README.md)
+→ [AI 워크플로우](https://github.com/developer-choi/ai-contexts/blob/master/deploy/skills/workflow/README.md)
 
 ### 3. Best Practice
 > **실력**이 높으면 속도와 퀄리티를 모두 챙길 수 있다고 믿습니다.
