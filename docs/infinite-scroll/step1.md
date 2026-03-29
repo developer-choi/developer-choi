@@ -14,6 +14,8 @@
 
 이 대기 시간을 최소화하여, 접속 즉시 콘텐츠가 나타나는 경험을 만드는 것이 이 단계의 목표입니다. 세 가지 렌더링 전략(CSR → SSR Prefetch → Streaming)을 순차적으로 적용하며, 각각의 한계를 발견하고 개선해 나간 과정을 다룹니다.
 
+이 단계의 구현 코드는 [GitHub](https://github.com/developer-choi/monorepo-playground/pull/6)에서 확인할 수 있습니다.
+
 ## 구현 환경
 
 - **Mock API**: `GET /api/board` — page/limit 페이지네이션, 600개 게시글

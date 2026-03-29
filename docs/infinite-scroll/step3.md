@@ -14,6 +14,8 @@
 
 단순히 동작하게 만드는 것을 넘어, 스크롤 감지 방식 선택 / 데이터 캐싱 전략 / 리렌더링 최적화까지 세 가지 성능 문제를 발견하고 해결한 과정을 다룹니다.
 
+이 단계의 구현 코드는 [GitHub](https://github.com/developer-choi/monorepo-playground/pull/8)에서 확인할 수 있습니다.
+
 ## 구현 환경
 
 - **데이터 페칭**: `useSuspenseInfiniteQuery` + SSR prefetch 유지
