@@ -54,7 +54,7 @@ AI에게 잘 시키려면 두 가지가 필요합니다.
 
 자세한 내용은 [workflow 스킬](https://github.com/developer-choi/ai-contexts/blob/master/deploy/skills/workflow/README.md)을 참고해 주시면 감사하겠습니다.
 
-#### Spec Review 스킬
+#### Requirement Review 스킬
 
 미리 방향을 정해두면, AI가 그 안에서 사람이 미처 보지 못한 것을 발굴합니다.
 
@@ -65,7 +65,7 @@ AI에게 잘 시키려면 두 가지가 필요합니다.
 > - 완성도(404, 파비콘, OG 태그), UX(뒤로가기, 빈 상태, 토스트 피드백) 등 사람이 미처 챙기지 못하는 디테일까지 TODO로 쌓아둡니다
 > - 사용자와 AI가 서로 아이디어를 주고받으며 구현 스펙을 만들어갑니다
 
-자세한 내용은 [spec-review 스킬](https://github.com/developer-choi/ai-contexts/blob/master/deploy/skills/workflow/spec-review/README.md)을 참고해 주시면 감사하겠습니다.
+자세한 내용은 [requirement-review 스킬](https://github.com/developer-choi/ai-contexts/blob/master/deploy/skills/workflow/requirement-review/README.md)을 참고해 주시면 감사하겠습니다.
 
 ---
 
@@ -114,4 +114,4 @@ AI가 코드를 생성하거나 수정할 때마다, 기존 동작이 깨지지 
 
 린트가 잡지 못하는 문제는 AI 코드리뷰가 담당합니다. 반복된 지적은 컨벤션에 축적됩니다. 이를 통해 사람이 리뷰에 쓰는 시간이 줄어듭니다.
 
-자세한 내용은 [code-review 스킬](https://github.com/developer-choi/ai-contexts/blob/master/deploy/skills/workflow/code-review/README.md)을 참고해 주시면 감사하겠습니다.
+자세한 내용은 [code-review 스킬](https://github.com/developer-choi/ai-contexts/blob/master/deploy/skills/code-review/README.md)을 참고해 주시면 감사하겠습니다.
