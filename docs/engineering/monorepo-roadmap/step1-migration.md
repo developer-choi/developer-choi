@@ -13,6 +13,19 @@ Client Component같은것도 되야하고.
 
 * **프로젝트 간 중복성**: 동일한 UI 컴포넌트나 비즈니스 로직이 여러 프로젝트에 흩어져 있어 유지보수 비용이 이중으로 발생함.
 * **코드 불일치**: 각 프로젝트마다 조금씩 다른 코드를 사용하여 브랜드 일관성이 깨지고 버그 수정이 파편화됨.
+* **3중 install·PR 사이클**: 공통 패키지를 수정할 때마다 publish → 사용 프로젝트마다 install → 별도 커밋·PR을 반복해야 함.
+* **커밋 단위 파편화**: 단일 변경 사항이 공통 프로젝트와 사용처들에 분리되어 커밋되어 영향 범위 추적이 어려움.
+* **버전 동기화 노가다**: 동일 라이브러리 버전을 모든 프로젝트에서 직접 일치시켜야 하므로 업그레이드 비용이 N배.
+
+### 사례: 학습자·선생님·어드민 3개 프로젝트
+
+폴리레포로 위 3개 프로젝트를 운영할 때, 공통 컴포넌트 1건 수정에 다음 작업이 필수였습니다.
+
+1. 공통 프로젝트에서 수정 → PR 올려 코드리뷰·QA 통과
+2. PR 병합 → publish
+3. 학습자·선생님·어드민 각각에서 install → 커밋 → PR (×3)
+
+QA·코드리뷰 사이클이 N배로 늘어났고, 긴급 핫픽스 시 가장 큰 병목이었습니다.
 
 ---
 
@@ -62,3 +75,12 @@ exports는 뭐냐, 빌드진입점 bestpratice, 나누는기준.
 
 또 질문할만한거를 KA에 추가하기.
 배워야하는 키워드들.
+
+---
+
+## 참고 자료
+
+* [네이버 D2 - 모노레포 가이드](https://d2.naver.com/helloworld/0923884)
+* [Why Google Stores Billions of Lines of Code in a Single Repository (CACM)](https://cacm.acm.org/research/why-google-stores-billions-of-lines-of-code-in-a-single-repository/)
+* [Yarn Workspaces - When should I use workspaces](https://yarnpkg.com/features/workspaces#when-should-i-use-workspaces)
+* [플렉스팀 - 모노레포 도입기](https://flex.team/blog/2025/08/29/_monorepo/)
