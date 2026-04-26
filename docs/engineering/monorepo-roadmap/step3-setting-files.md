@@ -27,3 +27,29 @@
 | 규칙 업데이트 반영 시간 | 코어 스택 규칙 변경 시 전 프로젝트 반영에 걸리는 시간 | 1분 이내 (자동화) |
 
 ---
+
+## 상세 실행 전략
+
+### 새 프로젝트 부트스트랩
+
+폴리레포에서 공유 패키지를 새로 만들 때마다 저장소 생성 → 커미터 추가 → 개발환경 구축 → CI/CD 구축 → 빌드 → publish 과정을 거쳐야 합니다. 모노레포는 이 모든 과정을 기존 인프라로 대체하므로 새 프로젝트 생성 비용이 거의 0에 수렴합니다.
+
+![멀티레포 vs 모노레포 프로젝트 생성](images/multirepo-vs-monorepo-creation.png)
+
+스캐폴딩(Scaffolding) 도구를 함께 사용하면 새 프로젝트 생성 시 팀의 ESLint·tsconfig·폴더 규칙이 자동으로 적용됩니다.
+
+![스캐폴딩](images/scaffolding.png)
+
+### 의존성 관계 가시성
+
+프로젝트 간 `import` 규칙을 태그 기반으로 강제할 수 있어 아키텍처가 시간이 갈수록 스파게티가 되는 것을 시스템적으로 방지합니다.
+
+![가시성 요약](images/project-visibility-summary.png)
+
+![프로젝트 제약 및 가시성](images/project-visibility-detail.png)
+
+### 코드 소유권
+
+`CODEOWNERS`로 폴더 단위 소유권을 명시하면 모노레포에서도 다른 팀이 모르는 사이 내 코드를 변경하는 일을 방지할 수 있습니다.
+
+![CODEOWNERS](images/codeowners.png)
