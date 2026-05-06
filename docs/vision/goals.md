@@ -54,4 +54,4 @@
 *   **목표:** 애초부터 오류 없는 프로그램을 만들고, 오류가 발생하면 빠르게 대응하기
 *   **방법과 현황:**
   1. 에러 처리 원칙을 세우고, 발생 시점별로 일관된 에러 처리 전략을 수립했습니다. [(링크)](../error-handling/step1.md)
-  2. 배포 후 에러가 발생했을 때 **빠르게 탐지하고 해결**하기 위해 Sentry를 도입하였고, 이슈를 98% 해결했습니다. [(링크)](https://github.com/developer-choi/best-practice/pull/3)
+  2. 배포 후 에러가 발생했을 때 **빠르게 탐지하고 해결**하기 위해 Sentry를 도입하였고, 이슈를 98% 해결했습니다. [(링크)](https://github.com/developer-choi/monorepo-playground/pull/12)

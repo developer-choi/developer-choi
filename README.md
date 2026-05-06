@@ -16,7 +16,7 @@
 속도와 완성도를 동시에 챙길 수 있는 가장 좋은 방법이라고 생각합니다.
 
 - [App Router Streaming 도입을 통한 **TTFB 39%** 개선](https://github.com/developer-choi/best-practice/pull/2)
-- [Sentry 구축 및 **이슈 98% 해결**](https://github.com/developer-choi/best-practice/pull/3)
+- [Sentry 구축 및 **이슈 98% 해결**](https://github.com/developer-choi/monorepo-playground/pull/12)
 - [프론트엔드 에러 처리 로드맵: **7 Steps**](docs/error-handling/step1.md)
 - [최고의 무한스크롤이란 무엇인가](./docs/infinite-scroll/step1.md)
 - [최고의 검색결과 목록이란 무엇인가 - **useDeferredValue()**](https://github.com/developer-choi/monorepo-playground/blob/master/apps/examples/src/rendering/search-result/README.md)
