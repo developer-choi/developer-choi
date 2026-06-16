@@ -17,7 +17,7 @@
 
 ## 에러는 어떻게 **예방**할 수 있을까요?
 1. 기획 및 디자인 리뷰 + 기능 구현을 애초에 잘했다면...
-2. [테스트 코드를 잘 작성했다면...](https://github.com/developer-choi/best-practice/pull/4)
+2. [테스트 코드를 잘 작성했다면...](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/testing/why-to-test.md)
 3. [코드 리뷰가 잘 됐다면...](https://github.com/developer-choi/developer-choi/blob/main/docs/communication/pr-commit-guide.md)
 
 즉, 이 문서는 `버그 없는 프로그램 만들기`를 위한 마지막 절차입니다.

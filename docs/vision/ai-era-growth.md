@@ -108,7 +108,7 @@ const first: string = users[5];  // 실제로는 undefined — 타입은 정상�
 expect(screen.getByRole("img", { name: /배너/ })).toBeInTheDocument();
 ```
 
-AI가 코드를 생성하거나 수정할 때마다, 기존 동작이 깨지지 않았는지 테스트가 자동으로 확인합니다. 이를 통해 사람이 검증해야 할 범위가 줄어듭니다 — [테스트 코드 PR](https://github.com/developer-choi/best-practice/pull/4)
+AI가 코드를 생성하거나 수정할 때마다, 기존 동작이 깨지지 않았는지 테스트가 자동으로 확인합니다. 이를 통해 사람이 검증해야 할 범위가 줄어듭니다 — [테스트 코드 PR](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/testing/why-to-test.md)
 
 #### 2-2-3. AI 코드리뷰
 
