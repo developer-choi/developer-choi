@@ -30,7 +30,7 @@ AI에게 잘 시키려면 두 가지가 필요합니다.
 
 이 두 가지 목표를 달성하기 위해 에러 피드백 UX 설계, 에러 처리 원칙, CSR/SSR/이벤트 핸들러 시점별 처리, 전역/공통/개별 처리까지 7단계로 정리했습니다.
 
-자세한 내용은 [에러 처리는 왜 필요한가?](https://github.com/developer-choi/developer-choi/blob/main/docs/error-handling/step1.md)를 참고해 주시면 감사하겠습니다.
+자세한 내용은 [에러 처리는 왜 필요한가?](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/error-handling/step1.md)를 참고해 주시면 감사하겠습니다.
 
 ### 1-2. 프롬프트로 일하는 방식을 위임
 
