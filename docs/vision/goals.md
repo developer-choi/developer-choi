@@ -37,7 +37,7 @@
 >
 > **저의 접근:**
 > 1.  **제안:** 에러 페이지에는 어떤 정보가 담겨야 하며, 왜 그 정보가 필요한가? (디자이너와 논의 주도)
-> 2.  **논의 결과:** 단순 오류 안내를 넘어, 원인과 구체적인 해결 방법을 안내하여 사용자의 혼란을 방지하도록 정책을 보완했습니다. [(사례 상세 보기)](../error-handling/step2.md)
+> 2.  **논의 결과:** 단순 오류 안내를 넘어, 원인과 구체적인 해결 방법을 안내하여 사용자의 혼란을 방지하도록 정책을 보완했습니다. [(사례 상세 보기)](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/error-handling/step2.md)
 
 이러한 과정을 통해 비즈니스의 본질적인 목표를 이해하고 개발에 임하고 있습니다.
 
@@ -53,5 +53,5 @@
 ### 2-2. 오류 없는 프로그램
 *   **목표:** 애초부터 오류 없는 프로그램을 만들고, 오류가 발생하면 빠르게 대응하기
 *   **방법과 현황:**
-  1. 에러 처리 원칙을 세우고, 발생 시점별로 일관된 에러 처리 전략을 수립했습니다. [(링크)](../error-handling/step1.md)
+  1. 에러 처리 원칙을 세우고, 발생 시점별로 일관된 에러 처리 전략을 수립했습니다. [(링크)](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/error-handling/step1.md)
   2. 배포 후 에러가 발생했을 때 **빠르게 탐지하고 해결**하기 위해 Sentry를 도입하였고, 이슈를 98% 해결했습니다. [(링크)](https://github.com/developer-choi/monorepo-playground/pull/12)

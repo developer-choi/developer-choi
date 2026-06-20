@@ -17,8 +17,8 @@
 
 - [App Router Streaming 도입을 통한 **TTFB 39%** 개선](https://github.com/developer-choi/best-practice/pull/2)
 - [Sentry 구축 및 **이슈 98% 해결**](https://github.com/developer-choi/monorepo-playground/pull/12)
-- [프론트엔드 에러 처리 로드맵: **7 Steps**](docs/error-handling/step1.md)
-- [최고의 무한스크롤이란 무엇인가](./docs/infinite-scroll/step1.md)
+- [프론트엔드 에러 처리 로드맵: **7 Steps**](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/error-handling/step1.md)
+- [최고의 무한스크롤이란 무엇인가](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/infinite-scroll/step1.md)
 - [왜 테스트 코드를 작성해야 할까요?](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/testing/why-to-test.md)
 
 ---
@@ -28,8 +28,8 @@
 디자이너와 함께 사용자 경험을 개선합니다.
 사용자 불편을 줄이는 것이 좋은 UX입니다.
 
-- [에러 피드백 UX 설계](./docs/error-handling/step2.md)
-- [디자인 시스템 구축기](./docs/engineering/design-system.md)
+- [에러 피드백 UX 설계](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/error-handling/step2.md)
+- [디자인 시스템 구축기](https://github.com/developer-choi/monorepo-playground/blob/master/packages/design-system/docs/guides/design-system.md)
 
 ---
 
