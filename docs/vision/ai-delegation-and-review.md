@@ -21,7 +21,7 @@ AI는 의존이 아니라 통제·검증하는 대상입니다.
 
 한 번 정립한 best practice는 AI로 빠르게 복제할 수 있습니다. 제가 검증한 방법을 AI가 새 작업에 그대로 재현합니다.
 
-- [App Router Streaming SSR 전환](https://github.com/developer-choi/best-practice/pull/2): 렌더링 방식별 장단점을 비교해 페이지 특성에 맞는 전략 정립
+- [App Router Streaming SSR 전환](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/streaming-ttfb/index.md): 렌더링 방식별 장단점을 비교해 페이지 특성에 맞는 전략 정립
 - [Sentry 구축](https://github.com/developer-choi/monorepo-playground/pull/12): 커스텀 에러 클래스 11개 + beforeSend 구조로 에러 추적 체계화
 - [프론트엔드 에러 처리 로드맵: 7단계](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/error-handling/step1.md): 예방부터 대응까지의 단계별 전략
 

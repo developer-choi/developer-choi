@@ -13,7 +13,7 @@ AI가 만든 코드는 lint·테스트코드·hook처럼 더 저렴한 비용으
 한 번 정립한 베스트 프랙티스는 AI로 빠르게 복제할 수 있습니다.
 속도와 완성도를 동시에 챙길 수 있는 가장 좋은 방법이라고 생각합니다.
 
-- [App Router Streaming 도입을 통한 **TTFB 39%** 개선](https://github.com/developer-choi/best-practice/pull/2)
+- [App Router Streaming 도입을 통한 **TTFB 39%** 개선](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/streaming-ttfb/index.md)
 - [Sentry 구축 및 **이슈 98% 해결**](https://github.com/developer-choi/monorepo-playground/pull/12)
 - [프론트엔드 에러 처리 로드맵: **7 Steps**](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/error-handling/step1.md)
 - [최고의 무한스크롤이란 무엇인가](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/infinite-scroll/step1.md)
