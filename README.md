@@ -27,6 +27,7 @@ AI가 만든 코드는 lint·테스트코드·hook처럼 더 저렴한 비용으
 사용자 불편을 줄이는 것이 좋은 UX입니다.
 
 - [에러 피드백 UX 설계](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/error-handling/step2.md)
+- [터치 한 번을 줄이는 폼 UX](https://monorepo-playground-examples.vercel.app/form)
 - [디자인 시스템 구축기](https://design-system-eta-six.vercel.app)
 
 ---
