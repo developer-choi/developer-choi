@@ -17,7 +17,7 @@ AI가 만든 코드는 lint·테스트코드·hook처럼 더 저렴한 비용으
 - [Sentry 구축 및 **이슈 98% 해결**](https://github.com/developer-choi/monorepo-playground/pull/12)
 - [프론트엔드 에러 처리 로드맵: **7 Steps**](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/error-handling/step1.md)
 - [최고의 무한스크롤이란 무엇인가](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/infinite-scroll/step1.md)
-- [왜 테스트 코드를 작성해야 할까요?](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/testing/why-to-test.md)
+- [프론트엔드 테스트 전략 로드맵](https://github.com/developer-choi/monorepo-playground/blob/master/docs/guides/testing/why-to-test.md)
 
 ---
 
