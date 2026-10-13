@@ -1,3 +1,9 @@
+### 개인 프로젝트
+
+> [📌 Plan for myself: 매일 실패를 기록하고, 이를 성공으로 전환하도록 돕는 서비스](https://github.com/developer-choi/plan-for-myself)
+
+---
+
 ### 베스트 프랙티스
 
 한 번 정립한 베스트 프랙티스는 AI로 빠르게 복제할 수 있습니다.
